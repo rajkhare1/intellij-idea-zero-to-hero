@@ -10,12 +10,9 @@ import lfe.sample.model.Student;
  */
 public class BasicCodeCompletion {
 
-    public String name ="Dummy Name !";
-    public void codeCompletionDemo()
-    {
+    public String name = "Dummy Name!";
+    public void codeCompletionDemo(){
         name=name.toUpperCase();
-        Student student = new Student("dummy name",50,"US");
-        
     }
 
 }

@@ -38,6 +38,7 @@ public class StatementCompletion {
     public void testBlockCompletion(boolean test) {
         int i = 100;
 
+
     }
 
     /**
@@ -51,7 +52,7 @@ public class StatementCompletion {
        int i =100;
         System.out.println(i);
         boolean test = false ;
-        testBlockCompletion(test);
+        testStatementCompletion(test);
     }
 
 }

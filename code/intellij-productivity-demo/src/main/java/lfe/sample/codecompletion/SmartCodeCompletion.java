@@ -26,7 +26,7 @@ public class SmartCodeCompletion {
     public void assignmentCompletion() {
         // IntelliJ will suggest compatible types like ArrayList or LinkedList based on List<String> type
         List<String> list;
-        list =new ArrayList<>();
+        list = new ArrayList<>();
         // Suggested completion: new ArrayList<>(); or new LinkedList<>();
     }
 
