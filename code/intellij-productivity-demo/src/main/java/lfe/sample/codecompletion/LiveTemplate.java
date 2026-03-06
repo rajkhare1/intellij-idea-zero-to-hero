@@ -13,24 +13,9 @@ public class LiveTemplate {
     //6 try catch
 
     public static void main(String[] args) {
-        List<String> sampleList = null;
-        try {
-            sampleList = Arrays.asList("One,Two", "Three");
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
-        
-    try {
-        
-    } catch (Exception e) {
-         //logger.error(e.getMessage());
-    }
-    
-
+        List<String> sampleList = Arrays.asList("One", "Two", "Three");
         for (String s : sampleList) {
-            
+
         }
-
-
-    }
+}
 }

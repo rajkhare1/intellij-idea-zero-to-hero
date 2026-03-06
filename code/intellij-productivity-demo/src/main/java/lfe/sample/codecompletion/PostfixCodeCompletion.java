@@ -1,5 +1,7 @@
 package lfe.sample.codecompletion;
 
+import lombok.extern.slf4j.Slf4j;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -8,6 +10,7 @@ import java.util.List;
  * and apply it using a Tab key.
  * IntelliJ IDEA takes the expression and transforms it based on the postfix provided.
  */
+@Slf4j
 public class PostfixCodeCompletion {
     public String name = "Java";
     List<String> days = Arrays.asList("Sun","Mon","Tues");
@@ -27,9 +30,11 @@ public class PostfixCodeCompletion {
         //For Iterate
         //Print with sout
         //Surround with try catch
-        for (int i = 0; i < days.size(); i++) {
 
+        for (int i = 0; i < days.size(); i++) {
+            
         }
+
         try {
             for (String day : days) {
                 System.out.println(day);
@@ -38,6 +43,9 @@ public class PostfixCodeCompletion {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
+
+        log.info("{} = {}", "name", name);
+
         //logger.info("{} = {}", "name", name);
 
 
