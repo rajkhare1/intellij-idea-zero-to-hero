@@ -5,6 +5,6 @@ import lfe.sample.util.DataUtil;
 
 public class CamelCaseCodeCompletion {
     public static void main(String[] args) {
-        //Person person = DataUtil.gpm
+//        Person person = DataUtil.gED
     }
 }
